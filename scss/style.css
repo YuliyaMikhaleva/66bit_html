@@ -1,0 +1,593 @@
+@font-face {
+  font-family: RobotoBold700;
+  src: url("../fonts/roboto-bold 700.ttf"); }
+@font-face {
+  font-family: RobotoLight300;
+  src: url("../fonts/roboto-light 300.ttf"); }
+@font-face {
+  font-family: RobotoRedular;
+  src: url("../fonts/roboto-regular 400.ttf"); }
+@font-face {
+  font-family: RobotoMedium500;
+  src: url("../fonts/roboto-medium 500.ttf"); }
+body {
+  max-width: 1440px;
+  margin: 0 auto; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 26px 0 27px 85px;
+  margin: 0 0 27px 0;
+  min-height: 111px;
+  background-color: #FBFBFB; }
+  .header_block_link {
+    text-decoration: none;
+    font-weight: 500;
+    font-family: RobotoMedium500;
+    font-size: 14px;
+    line-height: 58px;
+    color: black;
+    margin-right: 70px; }
+    .header_block_link:last-of-type {
+      margin-right: 0; }
+  .header_btn {
+    background-color: #7C1854;
+    border: 1px solid #7C1854;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width: 150px;
+    height: 34px;
+    border: none;
+    display: block;
+    margin: auto 70px;
+    cursor: pointer; }
+    .header_btn:hover {
+      background-color: white;
+      color: #7C1854;
+      border: 1px solid #7C1854;
+      box-sizing: border-box; }
+
+.main_block {
+  max-width: 842px;
+  height: 533px;
+  width: 100%;
+  background-image: url("../img/bg1.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  margin: 0 auto 26px;
+  padding: 24px 0 0 0; }
+  .main_block_title {
+    margin: 0 0 38px 0;
+    padding-top: 24px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: RobotoBold700;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #474747; }
+  .main_block_txt {
+    font-family: RobotoMedium500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    max-width: 747px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    color: #474747;
+    font-weight: 500; }
+  .main_block_images {
+    display: flex;
+    justify-content: center;
+    margin: 48px 0 0 0; }
+    .main_block_images_div {
+      margin-right: 161px;
+      font-family: RobotoMedium500;
+      width: 86px;
+      text-align: center;
+      font-weight: 500;
+      line-height: 16px;
+      font-size: 14px;
+      text-transform: uppercase; }
+      .main_block_images_div:first-of-type {
+        margin-right: 121px; }
+      .main_block_images_div:last-of-type {
+        margin-right: 0; }
+
+.hot_deals {
+  background-color: #FBFBFB;
+  max-width: 1440px;
+  width: 100%;
+  height: 611px;
+  margin: 0 auto;
+  padding-top: 59px; }
+  .hot_deals_title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #474747;
+    font-family: RobotoBold700;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    margin: 0 0 28px 0; }
+  .hot_deals_block {
+    margin: 0 23px;
+    display: flex;
+    justify-content: center; }
+    .hot_deals_block_svg {
+      display: block;
+      margin: auto 0; }
+      .hot_deals_block_svg_arrow:hover {
+        fill: #7C1854;
+        cursor: pointer; }
+      .hot_deals_block_svg_arrow:active {
+        fill: #C4C4C4; }
+  .hot_deals_pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px; }
+    .hot_deals_pagination_item {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background-color: #C4C4C4;
+      margin-right: 48px;
+      cursor: pointer; }
+      .hot_deals_pagination_item:last-of-type {
+        margin-right: 0; }
+      .hot_deals_pagination_item:hover {
+        background-color: #7C1854; }
+
+.active_block {
+  background-color: #7C1854; }
+
+.active_block_blue {
+  background-color: #226699; }
+
+.courses {
+  max-width: 1440px;
+  width: 100%;
+  min-height: 637px;
+  padding: 51px 138px 184px 165px;
+  box-sizing: border-box; }
+  .courses_title {
+    font-family: RobotoBold700;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #474747;
+    margin: 0 0 47px 0; }
+  .courses_button {
+    background-color: transparent;
+    color: #7C1854;
+    border: 2px solid #7C1854;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: RobotoMedium500;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 10px;
+    width: 232px;
+    min-height: 45px;
+    padding: 14px 20px;
+    margin-right: 49px;
+    position: relative;
+    cursor: pointer; }
+    .courses_button:first-of-type {
+      text-align: start; }
+    .courses_button:first-of-type:after {
+      content: "";
+      display: block;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 12px;
+      right: 11px;
+      background-image: url("../img/Polygon.svg");
+      background-size: 72%;
+      background-repeat: no-repeat;
+      background-position: center; }
+    .courses_button:hover {
+      background-color: #7C1854;
+      color: white; }
+  .courses_width {
+    margin-left: 93px;
+    height: 87px;
+    position: relative; }
+    .courses_width_title {
+      font-family: RobotoMedium500;
+      font-width: 500;
+      font-size: 14px;
+      line-height: 16px;
+      color: #7C1854;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 0 19px 0; }
+    .courses_width_pagination {
+      display: flex;
+      justify-content: center; }
+      .courses_width_pagination_item {
+        width: 29px;
+        height: 29px;
+        border: 5px solid white;
+        box-sizing: border-box;
+        border-radius: 50%;
+        background-color: #C4C4C4;
+        margin-right: 64px; }
+        .courses_width_pagination_item:nth-child(2) {
+          margin-right: 95px; }
+        .courses_width_pagination_item:nth-child(3) {
+          margin-right: 96px; }
+        .courses_width_pagination_item:nth-child(4) {
+          margin-right: 100px; }
+        .courses_width_pagination_item:last-of-type {
+          margin-right: 0; }
+        .courses_width_pagination_item:hover {
+          background-color: #7C1854;
+          border: 5px solid #7C1854;
+          box-sizing: border-box;
+          z-index: 99; }
+        .courses_width_pagination_item_txt {
+          display: block;
+          margin-top: 26px;
+          font-family: RobotoMedium500;
+          font-size: 10px;
+          line-height: 11px;
+          color: #7C1854;
+          font-weight: 500;
+          width: 60px; }
+    .courses_width_line {
+      background-color: #C4C4C4;
+      height: 5px;
+      width: 98%;
+      box-sizing: border-box;
+      position: relative;
+      top: 20%;
+      left: 5px;
+      z-index: 2; }
+  .courses_blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 79px; }
+  .courses_names {
+    display: flex; }
+    .courses_names_card_img {
+      margin-bottom: 15px; }
+    .courses_names_card_txt {
+      font-family: RobotoMedium500;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      color: #7C1854; }
+
+.tutors {
+  max-width: 1440px;
+  width: 100%;
+  min-height: 573px;
+  background-color: #FBFBFB;
+  padding: 57px 170px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 26px; }
+  .tutors_title {
+    text-align: center;
+    font-weight: 700;
+    font-family: RobotoBold700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #474747;
+    z-index: 3;
+    margin-top: 0;
+    margin-bottom: 76px;
+    text-transform: uppercase; }
+  .tutors_img {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 23px;
+    left: 21%;
+    z-index: -3; }
+  .tutors_photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .tutors_photos_worker {
+      width: 132px; }
+      .tutors_photos_worker_name {
+        margin-top: 17px;
+        display: block;
+        font-family: RobotoBold700;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #7C1854; }
+
+.career {
+  max-width: 1440px;
+  width: 100%;
+  padding: 46px 170px 0;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 132px; }
+  .career_title {
+    text-align: center;
+    font-weight: 700;
+    font-family: RobotoBold700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #474747;
+    z-index: 3;
+    margin-bottom: 81px;
+    text-transform: uppercase; }
+  .career_img {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 23px;
+    left: 21%;
+    z-index: -3; }
+  .career_form {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 65px 46px 40px;
+    max-width: 554px;
+    margin: 39px auto 0;
+    background-color: #FBFBFB; }
+    .career_form_title {
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      display: block;
+      margin-bottom: 64px;
+      position: relative;
+      font-family: RobotoBold700;
+      font-weight: 700;
+      color: #474747; }
+    .career_form_input {
+      border: 1px solid transparent;
+      border-bottom: 2px solid #7C1854;
+      box-sizing: border-box;
+      height: 74px;
+      background: none; }
+      .career_form_input::placeholder {
+        color: red;
+        font-family: RobotoRedular;
+        font-weight: 400;
+        color: #474747;
+        line-height: 21px;
+        font-size: 18px;
+        padding: 41px 0 12px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 0;
+        left: 0; }
+    .career_form_btn {
+      background-color: #7C1854;
+      border: 1px solid #7C1854;
+      color: white;
+      font-weight: 500;
+      font-size: 11px;
+      line-height: 14px;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      box-sizing: border-box;
+      min-width: 150px;
+      border-radius: 25px;
+      margin: 80px auto 0; }
+      .career_form_btn:hover {
+        background-color: white;
+        color: #7C1854;
+        border: 1px solid #7C1854;
+        box-sizing: border-box;
+        cursor: pointer; }
+
+.footer {
+  background-color: #7C1854;
+  min-height: 203px;
+  width: 100%;
+  max-width: 1440px;
+  padding: 57px 99px 63px 85px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  color: white; }
+  .footer_links {
+    display: flex;
+    justify-content: space-between; }
+    .footer_links_img {
+      display: block;
+      margin-right: 67px; }
+    .footer_links_block {
+      display: flex;
+      flex-direction: column; }
+      .footer_links_block_item {
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 15px; }
+        .footer_links_block_item:last-of-type {
+          margin-bottom: 0; }
+  .footer_contacts {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 16px; }
+    .footer_contacts_item {
+      display: block;
+      margin-bottom: 11px;
+      position: relative; }
+      .footer_contacts_item:first-of-type {
+        margin-bottom: 18px;
+        display: block;
+        position: relative;
+        top: 0;
+        left: -23px; }
+      .footer_contacts_item:last-of-type {
+        margin-bottom: 0; }
+      .footer_contacts_item:before {
+        content: "";
+        display: block;
+        width: 12px;
+        height: 10px;
+        position: absolute;
+        top: 4px;
+        left: -23px;
+        background-image: url("../img/mail.png");
+        background-size: cover; }
+      .footer_contacts_item:last-of-type:before {
+        content: "";
+        display: block;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 4px;
+        left: -23px;
+        background-image: url("../img/phone.png");
+        background-size: cover; }
+      .footer_contacts_item:first-of-type:before {
+        content: "";
+        display: none; }
+
+@media (max-width: 1300px) {
+  .courses {
+    padding: 0 20px 0 20px; } }
+@media (max-width: 1024px) {
+  .header {
+    padding: 26px 0 27px 0;
+    box-sizing: border-box; }
+    .header_btn {
+      margin: auto 0; }
+
+  .courses {
+    padding: 0; }
+    .courses_names {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-right: 10px; }
+      .courses_names_card {
+        margin-right: 10px; }
+    .courses_blocks {
+      flex-direction: column; }
+    .courses_button {
+      margin: 0 0 10px 0; }
+    .courses_width {
+      margin: 0; }
+
+  .tutors {
+    padding: 0;
+    min-height: 0; }
+    .tutors_title {
+      margin-top: 30px;
+      margin-bottom: 30px; }
+    .tutors_photos {
+      justify-content: center; }
+    .tutors_photos_worker {
+      margin-right: 15px;
+      margin-bottom: 15px; }
+    .tutors_img {
+      display: none; }
+
+  .career_img {
+    display: none; }
+
+  .career_title {
+    margin: 0 0 30px 0; }
+
+  .footer {
+    padding: 57px 20px 63px 20px; } }
+@media (max-width: 768px) {
+  .media_block_txt {
+    width: 90%; }
+
+  .courses_names {
+    flex-wrap: wrap;
+    justify-content: center; }
+    .courses_names_card {
+      margin-right: 5px; }
+
+  .tutors {
+    padding: 57px 0; }
+    .tutors_img {
+      left: 0; }
+
+  .career {
+    padding: 46px 0 0; }
+    .career_img {
+      left: 0; }
+
+  .footer {
+    padding: 57px 0 63px 0; }
+
+  .footer_links_img {
+    width: 200px;
+    margin-right: 5px; } }
+@media (max-width: 576px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+
+  .main_block {
+    background-image: none; }
+
+  .main_block_images_div {
+    margin-right: 10px; }
+    .main_block_images_div:first-of-type {
+      margin-right: 10px; }
+
+  .courses_width {
+    display: none; }
+
+  .courses_names {
+    margin-right: 0; }
+    .courses_names_card {
+      margin-bottom: 10px; }
+      .courses_names_card_img {
+        width: 100%; }
+      .courses_names_card_txt {
+        display: block;
+        text-align: center; }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    text-align: center; }
+    .footer_links {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px; }
+      .footer_links_img {
+        margin-bottom: 20px; }
+    .footer_contacts {
+      align-items: center; }
+      .footer_contacts_item:first-of-type {
+        left: 0; }
+
+  .hot_deals {
+    max-height: 400px; }
+
+  .career {
+    margin-bottom: 0; }
+    .career_form {
+      padding: 10px;
+      box-sizing: border-box; } }
+
+/*# sourceMappingURL=style.css.map */

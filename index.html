@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="scss/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <img class="header_img" src="./img/logo.svg" alt="logo" width="241" height="58">
+        <div class="header_block">
+            <a class="header_block_link" href="#">Программы</a>
+            <a class="header_block_link" href="#">Курсы</a>
+            <a class="header_block_link" href="#">О платформе</a>
+        </div>
+        <button class="header_btn">оставить заявку</button>
+    </header>
+
+    <section class="main_block">
+        <h1 class="main_block_title">тестовое задание  66 бит</h1>
+        <p class="main_block_txt">66 Бит - профессиональный разработчик программного обеспечения, специализирующийся на создании веб-сайтов, информационных систем и мобильных приложений, ориентированных на российский и зарубежный рынок.</p>
+        <p class="main_block_txt">Нашими клиентами являются иностранные стартапы, крупные государственные заказчики, а также частный бизнес. Каждый наш проект уникален и содержит в себе много интересных задач. Скучно не будет.</p>
+        <div class="main_block_images">
+            <div class="main_block_images_div">
+                <img src="./img/smile.svg" alt="smiles" width="64" height="64">
+                <p>дружный коллектив</p>
+            </div>
+            <div class="main_block_images_div">
+                <img src="./img/books.svg" alt="books" width="64" height="64">
+                <p>карьерный рост</p>
+            </div>
+            <div class="main_block_images_div">
+                <img src="./img/hand.svg" alt="hand" width="64" height="64">
+                <p>интересные задачи</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hot_deals">
+        <h1 class="hot_deals_title">горячие предложения</h1>
+        <div class="hot_deals_block">
+            <svg class="hot_deals_block_svg" onclick="plusDivs(-1)" width="37" height="41" viewBox="0 0 37 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="hot_deals_block_svg_arrow"  d="M2.5 24.8301C-0.833328 22.9056 -0.833336 18.0944 2.5 16.1699L28.75 1.01443C32.0833 -0.910072 36.25 1.49555 36.25 5.34455L36.25 35.6554C36.25 39.5044 32.0833 41.9101 28.75 39.9856L2.5 24.8301Z" fill="#C4C4C4"/>
+            </svg>
+            <div class="hot_deals_block w3-content" style="max-width:800px">
+                <img class="mySlides" src="./img/Group1.svg" style="width:100%">
+                <img class="mySlides" src="./img/Group2.svg" style="width:100%">
+                <img class="mySlides" src="./img/Group1.svg" style="width:100%">
+            </div>
+            <svg class="hot_deals_block_svg" onclick="plusDivs(1)" width="37" height="41" viewBox="0 0 37 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="hot_deals_block_svg_arrow" d="M34.5 16.1699C37.8333 18.0944 37.8333 22.9056 34.5 24.8301L8.25001 39.9856C4.91668 41.9101 0.750002 39.5044 0.750002 35.6554L0.750003 5.34457C0.750003 1.49556 4.91667 -0.910073 8.25 1.01443L34.5 16.1699Z" fill="#C4C4C4"/>
+            </svg>
+        </div>
+            <div class="hot_deals_pagination">
+                <div class="hot_deals_pagination_item demo" onclick="currentDiv(1)"></div>
+                <div class="hot_deals_pagination_item demo" onclick="currentDiv(2)"></div>
+                <div class="hot_deals_pagination_item demo" onclick="currentDiv(3)"></div>
+            </div>
+    </section>
+
+
+    <section class="courses">
+        <h1 class="courses_title">Выбирайте среди сотен курсов</h1>
+        <div class="courses_blocks">
+            <button class="courses_button">все направления</button>
+            <button class="courses_button ">курсы со скидкой</button>
+            <div class="courses_width">
+                <h3 class="courses_width_title">длительность курса</h3>
+                <div class="courses_width_line"></div>
+                <div class="courses_width_pagination">
+                    <div class="courses_width_pagination_item">
+                        <span class="courses_width_pagination_item_txt">любая</span>
+                    </div>
+                    <div class="courses_width_pagination_item">
+                        <span class="courses_width_pagination_item_txt">2 месяца</span>
+                    </div>
+                    <div class="courses_width_pagination_item">
+                        <span class="courses_width_pagination_item_txt">2-4 месяца</span>
+                    </div>
+                    <div class="courses_width_pagination_item">
+                        <span class="courses_width_pagination_item_txt">4-6 месяцев</span>
+                    </div>
+                    <div class="courses_width_pagination_item">
+                        <span class="courses_width_pagination_item_txt"> > 6 месяцев </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="courses_names">
+            <div class="courses_names_card">
+                <img class="courses_names_card_img" src="img/course1.png" alt="course1">
+                <span class="courses_names_card_txt">Название курса</span>
+            </div>
+            <div class="courses_names_card">
+                <img class="courses_names_card_img" src="img/course2.png" alt="course2">
+                <span class="courses_names_card_txt">Название курса</span>
+            </div>
+            <div class="courses_names_card">
+                <img class="courses_names_card_img" src="img/course3.png" alt="course3">
+                <span class="courses_names_card_txt">Название курса</span>
+            </div>
+            <div class="courses_names_card">
+                <img class="courses_names_card_img" src="img/course4.png" alt="course4">
+                <span class="courses_names_card_txt">Название курса</span>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="tutors">
+        <h1 class="tutors_title">мы собрали для вас лучших тьюторов</h1>
+        <img class="tutors_img" src="./img/bg3.svg" alt="bg3" width="842" height="96">
+        <div class="tutors_photos">
+            <div class="tutors_photos_worker">
+                <img src="./img/worker1.jpg" alt="worker" width="132" height="200">
+                <span class="tutors_photos_worker_name">Иванов Иван Project Manager Yandex</span>
+            </div>
+            <div class="tutors_photos_worker">
+                <img src="./img/worker2.jpg" alt="worker" width="132" height="200">
+                <span class="tutors_photos_worker_name">Иванов Иван Project Manager Yandex</span>
+            </div>
+            <div class="tutors_photos_worker">
+                <img src="./img/worker3.jpg" alt="worker" width="132" height="200">
+                <span class="tutors_photos_worker_name">Иванов Иван Project Manager Yandex</span>
+            </div>
+            <div class="tutors_photos_worker">
+                <img src="./img/worker4.jpg" alt="worker" width="132" height="200">
+                <span class="tutors_photos_worker_name">Иванов Иван Project Manager Yandex</span>
+            </div>
+            <div class="tutors_photos_worker">
+                <img src="./img/worker5.jpg" alt="worker" width="132" height="200">
+                <span class="tutors_photos_worker_name">Иванов Иван Project Manager Yandex</span>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="career">
+        <h1 class="career_title">сделайте первый шаг к карьере мечты уже сегодня!</h1>
+        <img class="career_img" src="./img/bg3.svg" alt="bg3" width="842" height="96">
+        <form class="career_form" action="#">
+            <span class="career_form_title">Оставьте заявку и наши методисты с вами свяжутся</span>
+
+            <input class="career_form_input"  placeholder="ФИО" type="text" id="name">
+
+            <input class="career_form_input"  placeholder="Телефон" type="text" id="phone">
+
+            <input class="career_form_input" placeholder="Email" type="text" id="email">
+            <button class="career_form_btn">оставить заявку</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_links">
+            <img class="footer_links_img" src="./img/footer_logo.svg" alt="logo" width="241" height="58">
+            <div class="footer_links_block">
+                <a class="footer_links_block_item" href="$">программы</a>
+                <a class="footer_links_block_item" href="$">курсы</a>
+                <a class="footer_links_block_item" href="$">о платформе</a>
+            </div>
+        </div>
+        <div class="footer_contacts">
+            <span class="footer_contacts_item">По всем вопросам обращайтесь</span>
+            <span class="footer_contacts_item">vector@info.com</span>
+            <span class="footer_contacts_item">+7 (999) 999 99  99</span>
+        </div>
+    </footer>
+
+
+<script src="./js/slider.js"></script>
+</body>
+</html>
